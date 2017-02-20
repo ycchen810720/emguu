@@ -132,7 +132,6 @@ namespace emgucvtest
                 {
                     TbGrayLevel.Text = img.ToImage<Gray, Byte>().Data[e.Y, e.X, 0].ToString();
                 }
-                if
                 ;
             }
         }
